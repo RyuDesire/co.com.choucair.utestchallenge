@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resourses/utestchallenge.feature",
-        tags = "@CreateUser",
+        features = "src/test/resources/features/uTestChallenge.feature",
+        tags = "@stories",
         glue="co.com.choucair.utestchallenge.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )
