@@ -2,7 +2,7 @@ package co.com.choucair.utestchallenge.stepdefinitions;
 
 import co.com.choucair.utestchallenge.tasks.OpenSignUpForm;
 import co.com.choucair.utestchallenge.tasks.OpenUp;
-import co.com.choucair.utestchallenge.tasks.RegisterUser;
+import co.com.choucair.utestchallenge.tasks.Register;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -22,7 +22,7 @@ public class UtestStepDefinitions {
 
     @When("^she fulfills all the information in the regitration form at the Utest platform$")
     public void shefulfillsalltheinformationintheregitrationformattheUtestplatform() {
-        OnStage.theActorInTheSpotlight().attemptsTo(RegisterUser.firstStep());
+        OnStage.theActorInTheSpotlight().attemptsTo(Register.user());
     }
 
     @Then("^she creates her new user at Utest platform$")

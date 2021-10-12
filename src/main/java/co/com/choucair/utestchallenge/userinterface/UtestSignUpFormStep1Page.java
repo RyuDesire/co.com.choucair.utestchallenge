@@ -20,5 +20,5 @@ public class UtestSignUpFormStep1Page extends PageObject {
     public static final Target INPUT_LANGUAGE = Target.the("Where to type a language to be added")
                                                 .located(By.xpath("//input[@type='search']"));
     public static final Target BUTTON_NEXT_LOCATION = Target.the("Button to go to step 2 of the form")
-            .located(By.className("btn btn-blue"));
+            .located(By.xpath("//a[@class='btn btn-blue']"));
 }
