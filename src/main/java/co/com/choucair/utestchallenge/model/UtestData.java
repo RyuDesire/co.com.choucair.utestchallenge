@@ -1,7 +1,7 @@
 package co.com.choucair.utestchallenge.model;
 
 public class UtestData {
-    private String strFirsName;
+    private String strFirstName;
     private String strLastName;
     private String strEmail;
     private String strBirthMonth;
@@ -11,19 +11,19 @@ public class UtestData {
     private String strCity;
     private String strZip;
     private String strComputerOS;
-    private String srtComputerOSVersion;
+    private String strComputerOSVersion;
     private String strComputerOSLanguage;
     private String strMobileBrand;
     private String strMobileModel;
     private String strMobileOS;
     private String strPassword;
 
-    public String getStrFirsName() {
-        return strFirsName;
+    public String getStrFirstName() {
+        return strFirstName;
     }
 
-    public void setStrFirsName(String strFirsName) {
-        this.strFirsName = strFirsName;
+    public void setStrFirstName(String strFirsName) {
+        this.strFirstName = strFirsName;
     }
 
     public String getStrLastName() {
@@ -98,12 +98,12 @@ public class UtestData {
         this.strComputerOS = strComputerOS;
     }
 
-    public String getSrtComputerOSVersion() {
-        return srtComputerOSVersion;
+    public String getStrComputerOSVersion() {
+        return strComputerOSVersion;
     }
 
-    public void setSrtComputerOSVersion(String srtComputerOSVersion) {
-        this.srtComputerOSVersion = srtComputerOSVersion;
+    public void setStrComputerOSVersion(String strComputerOSVersion) {
+        this.strComputerOSVersion = strComputerOSVersion;
     }
 
     public String getStrComputerOSLanguage() {
